@@ -1,0 +1,22 @@
+{
+  "name": "hello-k8s",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is a sample application to deploy on k8s cluster",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js" 
+  },
+  "engines": {
+    "node": "6.10.0",
+    "npm": "3.10.10"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "keywords": [
+    "k8s"
+  ],
+  "author": "Gayan Jayasundara",
+  "license": "ISC"
+}
